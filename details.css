@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button styles */
+.btn.dropdown-toggle {
+  width: 150px;
+  text-align: center;
+  background-color: #4e9f3d;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn.dropdown-toggle:hover {
+  background-color: #70af85;
+  transform: scale(1.05);
+}
+
+/* Caret styles */
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+/* Label styles */
+label {
+  padding-top: 5px;
+}
+
+/* Form label styles */
+.form-label {
+  padding-left: 0px !important;
+}
+
+/* Form control input styles */
+.form-control {
+  border-radius: 100px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #4e9f3d;
+  box-shadow: 0 0 8px rgba(78, 159, 61, 0.4);
+  outline: none;
+}
+
+/* Success button styles */
+.btn-success {
+  background-color: #4e9f3d !important;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #70af85;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Track image styles */
+img.track {
+  border: 3px solid #8a8a8a;
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+img.track:hover {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Form element styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Add smooth transitions and hover effects */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Additional custom styles for sections */
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f4f4f9;
+}
+
+.section p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #f4f4f9;
+}
+
+/* For background and shadow around the page content */
+.container {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent white layer */
+  border-radius: 25px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
